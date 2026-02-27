@@ -1,112 +1,69 @@
-# Data Science Project Boilerplate
+# DataCo Supply Chain Risk Intelligence
+**Strategic Logistics Analysis & Predictive Modeling**
 
-This boilerplate is designed to kickstart data science projects by providing a basic setup for database connections, data processing, and machine learning model development. It includes a structured folder organization for your datasets and a set of pre-defined Python packages necessary for most data science tasks.
+[![Project Status](https://img.shields.io/badge/Status-In--Progress-orange)](#)
+[![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Structure
+## Project Overview
+This project focuses on identifying logistical bottlenecks and predicting delivery risks within the **DataCo Global Supply Chain** dataset. Our team is leveraging advanced Exploratory Data Analysis (EDA) and Machine Learning to transform raw shipping data into actionable business intelligence.
 
-The project is organized as follows:
+### The Team
+* **Francisco (F)**: Lead Data Visualization & Cleaning
+* **Johnny (J)**: Supervised Learning & Risk Prediction
+* **Marcos (M)**: Unsupervised Clustering & Segmentation
 
-- **`src/app.py`** → Main Python script where your project will run.
-- **`src/explore.ipynb`** → Notebook for exploration and testing. Once exploration is complete, migrate the clean code to `app.py`.
-- **`src/utils.py`** → Auxiliary functions, such as database connection.
-- **`requirements.txt`** → List of required Python packages.
-- **`models/`** → Will contain your SQLAlchemy model classes.
-- **`data/`** → Stores datasets at different stages:
-  - **`data/raw/`** → Raw data.
-  - **`data/interim/`** → Temporarily transformed data.
-  - **`data/processed/`** → Data ready for analysis.
+### Team Collaboration & Strategic Goals
 
+Our workflow is built on a circular feedback loop where EDA insights directly inform model architecture:
 
-## ⚡ Initial Setup in Codespaces (Recommended)
+| Feature Lead | Primary Strategic Goal | Technical Ownership |
+| :--- | :--- | :--- |
+| **F, J & M** | **Data Integrity & Visualization** | Optimization of high-cardinality features (Zipcodes) and multi-variate correlation analysis to reduce noise. |
+| **F, J & M** | **Predictive Risk Assessment** | Developing a Supervised Random Forest model to minimize 'Late Delivery' overhead for the business. |
+| **F, J & M** | **Strategic Segmentation** | Utilizing Unsupervised K-Means clustering to identify high-value/low-risk regional hubs. |
 
-No manual setup is required, as **Codespaces is automatically configured** with the predefined files created by the academy for you. Just follow these steps:
+### Integrated Workflow
+1. **Pre-processing (The Team):** Engineering the `data/processed` layer to ensure consistent scaling and normalization for all models.
+2. **Modeling (The Team):** Implementing both Supervised and Unsupervised approaches to provide a 360-degree view of Supply Chain health.
+3. **Synthesis (The Team):** Combining individual metrics into a unified project dashboard.
 
-1. **Wait for the environment to configure automatically**.
-   - All necessary packages and the database will install themselves.
-   - The automatically created `username` and `db_name` are in the **`.env`** file at the root of the project.
-2. **Once Codespaces is ready, you can start working immediately**.
+---
 
+## Key Discoveries (EDA Phase)
 
-## 💻 Local Setup (Only if you can't use Codespaces)
+### Geographical Concentration
+Through coordinate mapping, we discovered a significant data cluster centered in **Puerto Rico (Caguas)**. This localized concentration is a primary factor in the supply chain's performance metrics.
 
-**Prerequisites**
+### Addressing High Cardinality
+We successfully engineered a solution for high-cardinality features such as `Customer_Zipcode`. By implementing a custom factorization and JSON mapping system, we preserved data integrity while optimizing the dataset for model training.
 
-Make sure you have Python 3.11+ installed on your machine. You will also need pip to install the Python packages.
+### Multicollinearity Management
+Our correlation analysis identified extreme redundancy in financial metrics (Sales vs. Price vs. Profit). We streamlined the feature set by dropping variables with a **1.00 correlation**, reducing model noise and improving computational efficiency.
 
-**Installation**
+## Tech Stack & Directory Structure
+* **Environment**: GitHub Codespaces
+* **Libraries**: Pandas, Seaborn, Matplotlib, Scikit-Learn, Pillow (PIL)
 
-Clone the project repository to your local machine.
-
-Navigate to the project directory and install the required Python packages:
-
-```bash
-pip install -r requirements.txt
-```
-
-**Create a database (if necessary)**
-
-Create a new database within the Postgres engine by customizing and executing the following command:
-
-```bash
-$ psql -U postgres -c "DO \$\$ BEGIN 
-    CREATE USER my_user WITH PASSWORD 'my_password'; 
-    CREATE DATABASE my_database OWNER my_user; 
-END \$\$;"
-```
-Connect to the Postgres engine to use your database, manipulate tables, and data:
-
-```bash
-$ psql -U my_user -d my_database
-```
-
-Once inside PSQL, you can create tables, run queries, insert, update, or delete data, and much more!
-
-**Environment Variables**
-
-Create a .env file in the root directory of the project to store your environment variables, such as your database connection string:
-
-```makefile
-DATABASE_URL="postgresql://<USER>:<PASSWORD>@<HOST>:<PORT>/<DB_NAME>"
-
-#example
-DATABASE_URL="postgresql://my_user:my_password@localhost:5432/my_database"
-```
-
-## Running the Application
-
-To run the application, execute the app.py script from the root directory of the project:
-
-```bash
-python src/app.py
-```
-
-## Adding Models
-
-To add SQLAlchemy model classes, create new Python script files within the models/ directory. These classes should be defined according to your database schema.
-
-Example model definition (`models/example_model.py`):
-
-```py
-from sqlalchemy.orm import declarative_base
-from sqlalchemy import String
-from sqlalchemy.orm import Mapped, mapped_column
-
-Base = declarative_base()
-
-class ExampleModel(Base):
-    __tablename__ = 'example_table'
-    id: Mapped[int] = mapped_column(primary_key=True)
-    username: Mapped[str] = mapped_column(unique=True)
-```
-
-## Working with Data
-
-You can place your raw datasets in the data/raw directory, intermediate datasets in data/interim, and processed datasets ready for analysis in data/processed.
-
-To process data, you can modify the app.py script to include your data processing steps, using pandas for data manipulation and analysis.
-
-## Contributors
-
-This template was built as part of the [Data Science and Machine Learning Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning) by 4Geeks Academy by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Learn more about [4Geeks Academy BootCamp programs](https://4geeksacademy.com/us/programs) here.
-
-Other templates and resources like this can be found on the school's GitHub page.
+```text
+.
+├── README.es.md
+├── README.md
+├── data
+│   ├── interim                          # Category mappings and temporary dictionaries
+│   │   ├── categories_preview.png
+│   │   ├── category_mappings.json
+│   │   ├── heatmap_preview.png
+│   │   └── preview.jpg                  # Project visual overview
+│   ├── processed                        # Cleaned, factorized, and normalized data
+│   └── raw
+│       └── DataCoSupplyChainDataset.csv # Original DataCo dataset
+├── learn.json
+├── models                               # Saved .pkl models (Supervised & Unsupervised)
+├── requirements.txt
+└── src
+    ├── EDA.ipynb                        # Primary EDA & Visualization
+    ├── app.py
+    ├── supply_chain_logistics.db
+    └── utils.py                         # Helper functions
+   
