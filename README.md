@@ -11,9 +11,10 @@
 This project focuses on identifying logistical bottlenecks and predicting delivery risks within the **DataCo Global Supply Chain** dataset. Our team is leveraging advanced Exploratory Data Analysis (EDA) and Machine Learning to transform raw shipping data into actionable business intelligence.
 
 ### The Team
-* **Francisco (F)**: Lead Data Visualization & Cleaning
-* **Johnny (J)**: Supervised Learning & Risk Prediction
-* **Marcos (M)**: Unsupervised Clustering & Segmentation
+Lead Data Visualization & Cleaning, Supervised Learning & Risk Prediction and Unsupervised Clustering & Segmentation.
+* **Francisco (F)**
+* **Johnny (J)**
+* **Marcos (M)**
 
 ### Team Collaboration & Strategic Goals
 
