@@ -1,0 +1,413 @@
+{
+    "Puerto Rico": [
+    "San Juan", "Bayamon", "Ponce", "Carolina", "Caguas",
+    "Guaynabo", "Arecibo", "Toa Baja", "Mayaguez", "Trujillo Alto"
+    ],
+    "Japón": [
+    "Tokyo", "Osaka", "Yokohama", "Nagoya", "Sapporo",
+    "Kobe", "Kyoto", "Fukuoka", "Kawasaki", "Saitama",
+    "Hiroshima", "Sendai", "Chiba", "Sakai", "Niigata",
+    "Hamamatsu", "Kumamoto", "Sagamihara", "Okayama", "Shizuoka",
+    "Himeji"
+    ],
+    "China": [
+    "Beijing", "Shanghai", "Guangzhou", "Shenzhen", "Chengdu",
+    "Wuhan", "Tianjin", "Chongqing", "Nanjing", "Hangzhou",
+    "Xi'an", "Suzhou", "Dongguan", "Shenyang", "Harbin",
+    "Qingdao", "Dalian", "Zhengzhou", "Jinan", "Changsha",
+    "Kunming", "Xiamen", "Fuzhou", "Ningbo", "Wuxi"
+    ],
+    "India": [
+    "Mumbai", "Delhi", "New Delhi", "Bangalore", "Bengaluru",
+    "Hyderabad", "Chennai", "Kolkata", "Pune", "Ahmedabad",
+    "Jaipur", "Surat", "Lucknow", "Kanpur", "Nagpur",
+    "Indore", "Bhopal", "Patna", "Vadodara", "Ludhiana",
+    "Agra", "Nashik", "Faridabad", "Meerut", "Rajkot",
+    "Varanasi", "Srinagar", "Aurangabad", "Dhanbad", "Amritsar"
+    ],
+    "Indonesia": [
+    "Jakarta", "Surabaya", "Bandung", "Medan", "Bekasi",
+    "Depok", "Tangerang", "South Tangerang", "Semarang", "Palembang",
+    "Makassar", "Batam", "Bogor", "Pekanbaru", "Bandar Lampung",
+    "Padang", "Malang", "Denpasar", "Yogyakarta"
+    ],
+    "Filipinas": [
+    "Manila", "Quezon City", "Caloocan", "Davao", "Cebu City",
+    "Zamboanga", "Taguig", "Pasig", "Antipolo", "Cagayan de Oro",
+    "Paranaque", "Valenzuela", "Makati", "Bacolod", "Muntinlupa",
+    "Iloilo City", "Pasay", "General Santos", "Las Pinas"
+    ],
+    "Tailandia": [
+    "Bangkok", "Chiang Mai", "Phuket", "Pattaya", "Nakhon Ratchasima",
+    "Udon Thani", "Khon Kaen", "Hat Yai", "Nonthaburi", "Samut Prakan"
+    ],
+    "Malasia": [
+    "Kuala Lumpur", "George Town", "Johor Bahru", "Ipoh", "Shah Alam",
+    "Petaling Jaya", "Klang", "Malacca City", "Kota Kinabalu", "Kuching"
+    ],
+    "Singapur": [
+    "Singapore"
+    ],
+    "Vietnam": [
+    "Ho Chi Minh City", "Hanoi", "Da Nang", "Hai Phong", "Can Tho",
+    "Bien Hoa", "Hue", "Nha Trang", "Vung Tau"
+    ],
+    "Corea del Sur": [
+    "Seoul", "Busan", "Incheon", "Daegu", "Daejeon",
+    "Gwangju", "Suwon", "Ulsan", "Seongnam", "Goyang",
+    "Yongin", "Changwon", "Bucheon", "Ansan", "Cheongju"
+    ],
+    "Taiwán": [
+    "Taipei", "New Taipei", "Taichung", "Kaohsiung", "Tainan",
+    "Taoyuan", "Hsinchu", "Keelung", "Chiayi"
+    ],
+    "Pakistán": [
+    "Karachi", "Lahore", "Faisalabad", "Rawalpindi", "Gujranwala",
+    "Peshawar", "Multan", "Hyderabad", "Islamabad", "Quetta",
+    "Sialkot", "Bahawalpur"
+    ],
+    "Bangladesh": [
+    "Dhaka", "Chittagong", "Khulna", "Rajshahi", "Sylhet",
+    "Rangpur", "Barisal", "Comilla", "Narayanganj", "Gazipur"
+    ],
+    "Sri Lanka": [
+    "Colombo", "Kandy", "Galle", "Jaffna", "Negombo",
+    "Anuradhapura", "Trincomalee", "Batticaloa"
+    ],
+    "Nepal": [
+    "Kathmandu", "Pokhara", "Lalitpur", "Biratnagar", "Birgunj",
+    "Bharatpur", "Janakpur"
+    ],
+    "Emiratos Árabes Unidos": [
+    "Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Al Ain",
+    "Ras al-Khaimah", "Fujairah", "Umm al-Quwain"
+    ],
+    "Arabia Saudí": [
+    "Riyadh", "Jeddah", "Mecca", "Medina", "Dammam",
+    "Khobar", "Tabuk", "Abha", "Taif", "Buraidah"
+    ],
+    "Qatar": [
+    "Doha", "Al Rayyan", "Al Wakrah"
+    ],
+    "Kuwait": [
+    "Kuwait City", "Al Ahmadi", "Hawalli"
+    ],
+    "Omán": [
+    "Muscat", "Salalah", "Sohar", "Nizwa"
+    ],
+    "Bahréin": [
+    "Manama", "Riffa", "Muharraq"
+    ],
+    "Jordania": [
+    "Amman", "Zarqa", "Irbid", "Aqaba"
+    ],
+    "Líbano": [
+    "Beirut", "Tripoli", "Sidon", "Tyre"
+    ],
+    "Irak": [
+    "Baghdad", "Basra", "Mosul", "Erbil", "Najaf",
+    "Karbala", "Sulaymaniyah"
+    ],
+    "Irán": [
+    "Tehran", "Mashhad", "Isfahan", "Karaj", "Shiraz",
+    "Tabriz", "Qom", "Ahvaz", "Kermanshah", "Urmia"
+    ],
+    "Kazajistán": [
+    "Almaty", "Astana", "Shymkent", "Karaganda", "Aktobe",
+    "Taraz", "Pavlodar", "Oskemen"
+    ],
+    "Uzbekistán": [
+    "Tashkent", "Samarkand", "Bukhara", "Namangan", "Andijan",
+    "Nukus", "Fergana"
+    ],
+    "Mongolia": [
+    "Ulaanbaatar", "Erdenet", "Darkhan"
+    ],
+    "Camboya": [
+    "Phnom Penh", "Siem Reap", "Battambang", "Sihanoukville"
+    ],
+    "Laos": [
+    "Vientiane", "Luang Prabang", "Pakse", "Savannakhet"
+    ],
+    "Myanmar": [
+    "Yangon", "Mandalay", "Naypyidaw", "Bago"
+    ],
+    "España": [
+        "Madrid", "Barcelona", "Girona", "Barakaldo", "Fuenlabrada",
+        "Talavera de la Reina", "San Sebastian", "Castelldefels",
+        "Seville", "Valencia", "Granada", "Las Rozas de Madrid",
+        "Elx", "Huelva", "Getafe", "Melilla", "Marbella",
+        "Torrevieja", "Pamplona", "Burgos", "Vitoria",
+        "Palma de Mallorca", "Tarragona", "Zamora", "Bilbao",
+        "Badalona", "Valladolid", "Reus", "Torremolinos"
+    ],
+    "Francia": [
+        "Drancy", "Nantes", "Hayange", "Nice", "Reims", "Nancy", "Laon",
+        "Pontault-Combault", "La Rochelle", "Villeneuve-le-Roi",
+        "Montpellier", "Vannes", "Villemomble", "Gien", "Neuilly-sur-Seine",
+        "Montreuil", "Marseille", "Wattrelos", "Pamiers", "Strasbourg",
+        "Six-Fours-les-Plages", "Rennes", "Palaiseau", "Cognac",
+        "Carpentras", "Miramas", "Mont-Saint-Aignan", "Tourcoing",
+        "Bry-sur-Marne", "Niort", "Verdun", "Conflans-Sainte-Honorine",
+        "Bondy", "Noisy-le-Grand", "Savigny-le-Temple", "La Seyne-sur-Mer",
+        "Pertuis", "Cagnes-sur-Mer", "Nanterre", "Vichy", "Le Mans",
+        "Bordeaux", "Rouen", "Le Bouscat", "Paris", "Biarritz",
+        "Aix-en-Provence", "Fontenay-aux-Roses", "Brest", "Le Chesnay",
+        "Malakoff", "Sevran", "Vincennes", "Caen", "Roissy-en-Brie",
+        "Brive-la-Gaillarde", "Le Petit-Quevilly", "Avignon", "Meudon",
+        "Mont-de-Marsan", "Garches", "La Baule-Escoublac", "Mons-en-Baroeul",
+        "Le Blanc-Mesnil", "Dijon", "Antony", "Castres", "Marignane",
+        "Ajaccio", "Martigues", "Courbevoie", "Franconville",
+        "Mantes-la-Jolie", "Chaumont", "Lannion", "Corbeil-Essonnes",
+        "Versailles", "Argenteuil", "Saint-Malo", "Creil",
+        "Saint-Germain-en-Laye", "Rillieux-la-Pape", "Mougins",
+        "Rambouillet", "Aubervilliers", "Calais", "Chartres", "Le Havre",
+        "Bayonne", "Pantin", "Sarcelles", "Aulnay-sous-Bois",
+        "Vigneux-sur-Seine", "Clamart", "Carcassonne", "Dreux",
+        "La Teste-de-Buch", "Tarbes", "Pessac", "Bayeux", "Ronchin",
+        "Mantes-la-Ville", "Deuil-la-Barre", "Pontivy",
+        "Villenave-d'Ornon", "Le Plessis-Robinson", "Roanne",
+        "Argentan", "Saint-Michel-sur-Orge", "Maisons-Alfort",
+        "Fontaine", "Issy-les-Moulineaux", "Le Creusot", "Marly-le-Roi",
+        "Montmorency", "Ivry-sur-Seine", "Saint-Denis",
+        "Boulogne-sur-Mer", "Champigny-sur-Marne", "Olivet", "Epinal",
+        "Flers", "Neuilly-sur-Marne", "Quimper", "Cormeilles-en-Parisis",
+        "Farnborough", "Bourgoin-Jallieu", "Villiers-sur-Marne",
+        "Les Pavillons-sous-Bois"
+    ],
+    "Alemania": [
+        "Dortmund", "Gelsenkirchen", "Nuremberg", "Halle", "Bremerhaven",
+        "Bielefeld", "Duisburg", "Hanover", "Wilhelmshaven", "Langenhagen",
+        "Viersen", "Wiesbaden", "Munich", "Ratingen", "Hamburgo",
+        "Remscheid", "Reutlingen", "Kiel", "Augsburg", "Castrop-Rauxel",
+        "Cologne", "Erftstadt", "Ulm", "Siegen", "Gronau", "Frankfurt",
+        "Leipzig", "Bochum", "Magdeburg", "Wetzlar", "Lohne", "Stuttgart",
+        "Herford", "Langenfeld", "Dresden", "Chemnitz", "Friedrichshafen",
+        "Heilbronn", "Recklinghausen", "Garbsen", "Dormagen", "Gera",
+        "Aschaffenburg", "Bremen", "Heidelberg", "Wuppertal", "Zwickau",
+        "Offenbach", "Trier", "Velbert", "Celle", "Ingolstadt", "Erlangen",
+        "Wolfsburg", "Herten", "Dabrowa Gornicza", "Essen", "Herne",
+        "Arnsberg", "Ennigerloh", "Solingen", "Oldenburg", "Mainz",
+        "Hamm", "Freiburg", "Bayreuth", "Munster", "Hildesheim",
+        "Erfurt", "Naumburg", "Emden", "Mannheim"
+    ],
+    "Italia": [
+        "Perugia", "Portici", "Agrigento", "Palermo", "Acerra", "Messina",
+        "Verona", "Fano", "Brindisi", "Parma", "Rome", "Vicenza",
+        "Capannori", "Milan", "Moncalieri", "Turin", "Cagliari",
+        "Pescara", "Afragola", "Venice", "Sesto San Giovanni",
+        "Genoa", "Florence", "Montecatini Terme", "Reggio nell'Emilia",
+        "Bari", "Gallarate", "Piacenza", "Brescia", "Bologna", "Cerignola",
+        "Carpi", "Catania", "Novara", "Pisa", "Avellino", "Ravenna",
+        "Rimini", "Ferrara", "Cesena", "Naples", "Foggia",
+        "Guidonia Montecelio", "Capua", "Grosseto", "Himeji",
+        "Tivoli", "Marina di Carrara", "Treviso", "Carrara", "Trapani",
+        "Aprilia", "Cosenza", "Altamura", "Pozzuoli"
+    ],
+    "Reino Unido": [
+        "Gateshead", "Eastbourne", "Portsmouth", "London", "Bradford",
+        "Oldham", "Hartlepool", "Edinburgh", "Manchester", "Letchworth",
+        "Kilwinning", "Aylesbury", "Birmingham", "Wolverhampton",
+        "Hastings", "Sheffield", "Lowestoft", "Redditch", "Leeds",
+        "Plymouth", "West Bromwich", "Basingstoke", "Littlehampton",
+        "Sunderland", "Southend-on-Sea", "Widnes", "Cambridge", "Luton",
+        "Exeter", "Waterlooville", "Leicester", "Peterborough", "Crewe",
+        "Bognor Regis", "Bolton", "Great Yarmouth", "Stockton-on-Tees",
+        "Carlisle", "Rugby", "Derby", "Cheltenham", "Bournemouth",
+        "Solihull", "Huddersfield", "Dundee", "Lincoln", "Basildon",
+        "Mansfield", "Poole", "Blackpool", "Maidstone", "Swansea",
+        "Glasgow", "Darton", "Northampton", "Preston", "Colchester",
+        "Stoke-on-Trent", "Aberdeen", "Garforth", "Mansfield", "Wigan",
+        "Bebington", "Loughborough", "Chester", "Swindon"
+    ],
+    "Países Bajos": [
+        "Groningen", "Amsterdam", "The Hague", "Arnhem", "Dordrecht",
+        "Alphen aan den Rijn", "Utrecht", "Tilburg", "Schiedam",
+        "Doetinchem", "Rotterdam", "Apeldoorn", "Leeuwarden", "Emmen",
+        "Zeist", "Oosterhout", "Veenendaal", "Almelo", "Nieuwegein"
+    ],
+    "Portugal": [
+        "Lisbon", "Porto", "Amadora", "Vila Nova de Gaia"
+    ],
+    "Austria": [
+        "Viena", "Salzburgo"
+    ],
+    "Suecia": [
+        "Estocolmo", "Nacka", "Gothenburg", "Karlstad", "Solna", "Upsala"
+    ],
+    "Noruega": [
+        "Oslo", "Sandnes", "Hamar"
+    ],
+    "Finlandia": [
+        "Vantaa", "Turku", "Helsinki", "Espoo", "Kotka"
+    ],
+    "Dinamarca": [
+        "Copenhagen", "Odense", "Frederiksberg"
+    ],
+    "Bélgica": [
+        "Seraing", "Charleroi", "Genk", "Amberes", "Hasselt", "Mechelen", "Ghent"
+    ],
+    "Suiza": [
+        "Berne", "Ginebra", "San Galo", "Zurich", "Winterthur"
+    ],
+    "Irlanda": [
+        "Dublín"
+    ],
+    "Polonia": [
+        "Gdynia", "Bytom", "Warsaw", "Gdansk", "Poznan", "Lodz", "Radom", "Opole", "Slupsk"
+    ],
+    "República Checa": [
+        "Ostrava", "Liberec"
+    ],
+    "Eslovaquia": [
+        "Banska Bystrica"
+    ],
+    "Hungría": [
+        "Budapest"
+    ],
+    "Croacia": [
+        "Zagreb", "Rijeka"
+    ],
+    "Lituania": [
+        "Vilna", "Siauliai"
+    ],
+    "Ucrania": [
+        "Khmelnytskyi", "Lviv", "Kramators'k", "Lugansk", "Dniprodzerzhyns'k",
+        "Mykolayiv", "Vínnytsia", "Járkov", "Ivano-Frankivs'k",
+        "Kremenchuk", "Poltava", "Sumy", "Horlivka", "Kryvyy Rih",
+        "Dnipropetrovsk"
+    ],
+    "Rumania": [
+        "Giurgiu", "Galati", "Bacau", "Ploiesti", "Timisoara", "Constanza", "Ramnicu Valcea", "Varna"
+    ],
+    "Bulgaria": [
+        "Sofia", "Varna"
+    ],
+    "Rusia": [
+        "Yaroslavl", "Sterlitamak", "Uvarovo", "Kashira", "Makhachkala",
+        "Cheliábinsk", "Astracán", "Derbent", "Angarsk", "Blagoveshchensk",
+        "Ivanovo", "Kaluga", "Arkhangelsk", "Kaliningrado", "Budënnovsk",
+        "Ufa", "Irkutsk", "Magnitogorsk"
+    ],
+    "Turquía": [
+        "Bursa", "Kartal", "Estambul", "Adana", "Mersin", "Kütahya",
+        "Eskisehir", "Corlu", "Bornova", "Salihli", "Bagcilar",
+        "Gaziantep", "Konya", "Nigde", "Ardahan", "Maltepe",
+        "Akhisar", "Sanliurfa", "Ankara", "Uskudar", "Turgutlu", "Izmir", "Antalya"
+    ],
+    "Israel": [
+        "Jerusalén", "Tel Aviv", "Haifa", "Ashdod"
+    ],
+    "Marruecos": [
+        "Casablanca", "Kenitra", "Fes", "Sale", "Marrakech",
+        "Khouribga", "Meknes", "Taza", "Rabat", "Tangier"
+    ],
+    "Egipto": [
+        "Cairo", "Hurghada", "Alexandria", "Fayún", "Abu Kabir"
+    ],
+    "Nigeria": [
+        "Ugep", "Lagos", "Ikot Ekpene", "Warri", "Maiduguri", "Kano",
+        "Zaria", "Port Harcourt", "Minna", "Abakaliki", "Kaduna", "Ibadan", "Katsina"
+    ],
+    "Sudáfrica": [
+        "Pretoria", "Port Elizabeth", "Cape Town", "Potchefstroom", "Johannesburg", "Stellenbosch", "Soweto"
+    ],
+    "Canadá": [
+        "Ottawa", "Kitchener", "Halifax", "North York", "Mississauga",
+        "Windsor", "Surrey", "Calgary", "Saskatoon", "Toronto", "Saanich", "Victoria"
+    ],
+    "Estados Unidos": [
+        "Los Angeles", "San Francisco", "Overland Park", "Houston", "Gilbert",
+        "San Jose", "Fresno", "Peoria", "Cincinnati", "Columbus", "Philadelphia",
+        "Des Plaines", "Elmhurst", "Seattle", "Oakland", "New York City", "Monroe",
+        "Denver", "Jacksonville", "Tulsa", "Moreno Valley", "Sacramento",
+        "Clarksville", "Noblesville", "Lakewood", "Wheeling", "Chester",
+        "Spokane", "Little Rock", "Wilmington", "Broken Arrow", "Chesapeake",
+        "Englewood", "Phoenix", "Southaven", "Redlands", "Quincy", "Saint Paul",
+        "Harrisonburg", "New Albany", "Griffith", "Huntsville", "Newark",
+        "Memphis", "Fayetteville", "Richmond", "Lakeland", "Auburn", "Pharr",
+        "Hempstead", "Louisville", "Wichita", "Fort Worth", "Columbia",
+        "Atlanta", "Odessa", "Las Vegas", "Morgan Hill", "Portland", "Buffalo",
+        "Amarillo", "Tampa", "Frisco", "Tallahassee", "Lewiston",
+        "Port Saint Lucie", "Saint Louis", "Lawrence", "Redmond", "Costa Mesa",
+        "Asheville", "Lowell", "Akron", "Springfield", "Henderson", "Arlington",
+        "San Diego", "Tucson", "Detroit", "Minneapolis", "Charlotte",
+        "Newport News", "Oceanside", "San Antonio", "Omaha", "Baltimore",
+        "Dallas", "Jackson", "Chicago", "Waterbury", "Parker", "Fairfield",
+        "Clinton", "Oswego", "Saint Charles", "Decatur", "Round Rock", "Grand Rapids"
+    ],
+    "EE. UU.": [
+        "Los Angeles", "San Francisco", "Overland Park", "Houston", "Gilbert",
+        "San Jose", "Fresno", "Peoria", "Cincinnati", "Columbus", "Philadelphia",
+        "Des Plaines", "Elmhurst", "Seattle", "Oakland", "New York City", "Monroe",
+        "Denver", "Jacksonville", "Tulsa", "Moreno Valley", "Sacramento",
+        "Clarksville", "Noblesville", "Lakewood", "Wheeling", "Chester",
+        "Spokane", "Little Rock", "Wilmington", "Broken Arrow", "Chesapeake",
+        "Englewood", "Phoenix", "Southaven", "Redlands", "Quincy", "Saint Paul",
+        "Harrisonburg", "New Albany", "Griffith", "Huntsville", "Newark",
+        "Memphis", "Fayetteville", "Richmond", "Lakeland", "Auburn", "Pharr",
+        "Hempstead", "Louisville", "Wichita", "Fort Worth", "Columbia",
+        "Atlanta", "Odessa", "Las Vegas", "Morgan Hill", "Portland", "Buffalo",
+        "Amarillo", "Tampa", "Frisco", "Tallahassee", "Lewiston",
+        "Port Saint Lucie", "Saint Louis", "Lawrence", "Redmond", "Costa Mesa",
+        "Asheville", "Lowell", "Akron", "Springfield", "Henderson", "Arlington",
+        "San Diego", "Tucson", "Detroit", "Minneapolis", "Charlotte",
+        "Newport News", "Oceanside", "San Antonio", "Omaha", "Baltimore",
+        "Dallas", "Jackson", "Chicago", "Waterbury", "Parker", "Fairfield",
+        "Clinton", "Oswego", "Saint Charles", "Decatur", "Round Rock", "Grand Rapids"
+    ],
+    "México": [
+        "Mexico City", "Tlaquepaque", "Puebla", "Tepic", "Ixtapaluca",
+        "Orizaba", "Villahermosa", "León", "Tlalpan", "Guadalajara",
+        "Zacatecas", "Chihuahua", "Monterrey", "Querétaro", "Hermosillo",
+        "Coacalco", "Cuernavaca", "Hidalgo", "Irapuato", "Zapopan",
+        "Lázaro Cárdenas", "Durango", "Juárez", "Tampico", "Atlixco",
+        "Saltillo", "Ciudad del Carmen", "Tijuana", "Ocotlán", "Toluca",
+        "Azcapotzalco", "General Escobedo", "San Luis Río Colorado",
+        "Tlalnepantla", "Obregón", "Reynosa", "Los Mochis", "Iguala",
+        "Mérida", "Colima", "Coyoacán", "Milpa Alta", "Gómez Palacio",
+        "Morelia", "Nuevo Laredo", "Miguel Hidalgo", "Heroica Zitácuaro",
+        "Veracruz", "San Cristóbal de Las Casas", "Tuxtla Gutiérrez",
+        "Poza Rica de Hidalgo", "Altamira", "Mexicali", "Culiacán",
+        "San Francisco del Rincón", "Celaya", "Metepec", "Tulancingo",
+        "Acuña"
+    ],
+    "Colombia": [
+        "Dos Quebradas", "Cúcuta", "Pitalito", "Bogotá", "Medellín",
+        "Neiva", "Bucaramanga", "Soledad", "Barranquilla", "Yopal",
+        "Armenia", "Santa Marta", "Arauca", "Bello", "Manizales"
+    ],
+    "Venezuela": [
+        "Cabimas", "Valle de La Pascua", "Maturín", "Caracas", "Maracaibo",
+        "Guacara", "Barquisimeto", "Puerto La Cruz", "El Limón"
+    ],
+    "Perú": [
+        "Lima", "Puno", "Arequipa", "Ayacucho", "Callao", "Huancayo"
+    ],
+    "Chile": [
+        "Santiago de Chile", "Talcahuano", "Puerto Montt"
+    ],
+    "Argentina": [
+        "Buenos Aires", "Cipolletti", "Córdoba", "San Justo", "Avellaneda",
+        "Mendoza", "Posadas", "San Nicolás de los Arroyos", "Tartagal", "Orán", "Pilar"
+    ],
+    "Uruguay": [
+        "Montevideo", "Las Piedras"
+    ],
+    "Brasil": [
+        "Juazeiro", "São Paulo", "Barueri", "Arapongas", "Maceió",
+        "Belo Horizonte", "Cotia", "Itapecuru Mirim", "Brasília", "Santarém",
+        "Joinville", "Balneário Camboriú", "Sorocaba", "Itu", "Águas Lindas de Goiás",
+        "Vespasiano", "Mauá", "Macaé", "Serra", "Americana", "Indaial",
+        "Santana de Parnaíba", "Limeira", "Macapá", "Rio Branco", "Vassouras",
+        "Registro", "Presidente Dutra", "Brumado", "Teresópolis", "Guarulhos",
+        "Pirapora", "Surubim", "Pontes e Lacerda", "Feira de Santana",
+        "Francisco Beltrão", "Araguaína", "Eunápolis", "Barra Mansa",
+        "Salvador", "João Pessoa", "Resende", "Mossoró", "Castanhal",
+        "Itaúna", "Ponte Nova", "Teresina", "Cabo Frio", "Valinhos",
+        "São Gonçalo", "Penedo", "Recife", "Igarassu", "Pindamonhangaba",
+        "Açu", "Manaus", "Nova Serrana", "Paraná", "São Leopoldo",
+        "Porto Alegre", "Curitiba", "Fortaleza", "Ribeirão Preto", "Itapevi",
+        "Betim", "Anápolis", "Blumenau", "Caxias do Sul", "Porto-Novo"
+    ]
+}
