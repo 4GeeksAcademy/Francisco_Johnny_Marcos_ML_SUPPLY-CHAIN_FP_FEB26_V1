@@ -22,3 +22,4 @@ joblib
 fastparquet
 pyarrow
 tabulate
+plotly
