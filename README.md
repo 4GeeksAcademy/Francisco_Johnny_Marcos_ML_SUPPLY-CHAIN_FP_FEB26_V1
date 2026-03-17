@@ -4,7 +4,7 @@
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/4GeeksAcademy/Francisco_Johnny_Marcos_ML_SUPPLY-CHAIN_FP_FEB26_V1)
 [![Project Status](https://img.shields.io/badge/Status-Completed-brightgreen)](#)
 [![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/UI-Streamlit-red)](https://streamlit.io/)
+[![Streamlit](https://img.shields.io/badge/UI-Streamlit-red)](https://francisco-johnny-marcos-ml-supply-chain-7o3d.onrender.com)
 
 ## Project Mission
 Every late delivery represents a financial penalty and a loss of customer trust. Our team has built a **Proactive Logistics Command Center** that identifies delivery risks at the moment an order is placed, allowing managers to intervene before the shipping process fails.
